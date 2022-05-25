@@ -3,9 +3,10 @@ Pod::Spec.new do |spec|
 
   spec.name         = "demoPodProject"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of demoPodProject."
+  spec.summary      = "简介"
 
   spec.description  = <<-DESC
+                   "简介x啊啊啊啊啊啊啊啊"
                    DESC
 
   spec.homepage     = "https://github.com/xiaYingwudi/demoPodProject"
@@ -30,7 +31,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/xiaYingwudi/demoPodProject.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "demoPodProject", "demoPodProject/**/*.{h,m}"
+  spec.source_files  = 'Classes/*.{h,m}'
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
