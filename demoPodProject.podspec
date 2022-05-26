@@ -31,8 +31,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/xiaYingwudi/demoPodProject.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = 'Classes/.{h,m}'
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = 'Classes/*.{h,m}'
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
